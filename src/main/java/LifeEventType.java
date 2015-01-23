@@ -12,4 +12,11 @@ public class LifeEventType {
 	public void setDescription(String description) {
 		this.description = description;
 	}
+
+	@Override
+	public String toString() {
+		return "LifeEventType{" +
+				"description='" + description + '\'' +
+				'}';
+	}
 }

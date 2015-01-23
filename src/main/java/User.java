@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -5,6 +6,10 @@ import java.util.List;
  * Created by diego on 23/01/15.
  */
 public class User {
+
+	public User() {
+	 	lifeEvents = new ArrayList<>();
+	}
 
 	private String username, password;
 

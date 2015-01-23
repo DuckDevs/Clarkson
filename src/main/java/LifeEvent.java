@@ -75,4 +75,17 @@ public class LifeEvent {
 	public void setLikes(List<Like> likes) {
 		this.likes = likes;
 	}
+
+	@Override
+	public String toString() {
+		return "LifeEvent{" +
+				"date=" + date +
+				", lifeEventType=" + lifeEventType +
+				", location=" + location +
+				", message=" + message +
+				", attachment=" + attachment +
+				", comments=" + comments +
+				", likes=" + likes +
+				'}';
+	}
 }

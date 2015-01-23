@@ -24,4 +24,12 @@ public class Message {
 	public void setMentions(List<Mention> mentions) {
 		this.mentions = mentions;
 	}
+
+	@Override
+	public String toString() {
+		return "Message{" +
+				"text='" + text + '\'' +
+				", mentions=" + mentions +
+				'}';
+	}
 }
